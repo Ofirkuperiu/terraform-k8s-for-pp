@@ -16,7 +16,7 @@ This project demonstrates **Infrastructure as Code (IaC)** automation using **Te
 ### How to Run
 ```hcl
 terraform init
-terraform apply -auto-approve
+terraform apply
 ```
 
 ### Access the Web Application
