@@ -14,8 +14,10 @@ This project demonstrates **Infrastructure as Code (IaC)** automation using **Te
 
 
 ### How to Run
+```hcl
 terraform init
 terraform apply -auto-approve
+```
 
 ### Access the Web Application
 ```kubectl
