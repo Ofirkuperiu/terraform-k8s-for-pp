@@ -18,6 +18,7 @@ terraform init
 terraform apply -auto-approve
 
 ### Access the Web Application
+```kubectl
 kubectl port-dorward svc/web-app-service 8080:80
 Since the web app runs on a container that runs Kind cluster, we should forward the traddic to our computer
 
