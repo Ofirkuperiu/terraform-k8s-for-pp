@@ -27,4 +27,5 @@ Then open the browser and go to:
 http://localhost:8080
 
 ### Cleanup
+```hcl
 terraform destroy
